@@ -14,11 +14,11 @@ final class Calculator {
         return a * b
     }
 
-    func divide(_ a: Double, _ b: Double) throws -> Int {
+    func divide(_ a: Double, _ b: Double) throws -> Double {
         if b == 0 {
             throw CalculatorError.divisionByZero
         }
-        return Int(a / b)
+        return Inta / b
     }
 
     func isGreaterThanTen(_ number: Int) -> Bool {
